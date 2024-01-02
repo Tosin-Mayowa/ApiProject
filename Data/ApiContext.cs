@@ -10,5 +10,8 @@ namespace ApiProject.Data
 
         }
         public DbSet<Category> Categories { get; set; }
+        public DbSet<Customer> Customers { get; set; }
+        public DbSet<RefreshTokenTbl> RefreshToken { get; set; }
+        public DbSet<User> Users { get; set; }
     }
 }
